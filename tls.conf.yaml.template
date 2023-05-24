@@ -1,0 +1,9 @@
+## All options defined here are available to all instances.
+#
+init_config:
+instances:
+  - server: https://example.net
+    name: produs
+    days_critical: 30.0
+    days_warning: 60.0
+    tls_verify: false

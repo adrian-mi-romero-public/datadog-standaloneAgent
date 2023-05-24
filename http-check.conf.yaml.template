@@ -1,0 +1,8 @@
+## All options defined here are available to all instances.
+#
+init_config:
+instances:
+  - name: test
+    url: https://example.url.com/
+    method: get
+    tls_ignore_warning: "true"
