@@ -1,6 +1,6 @@
 FROM python:3.10.1-slim-buster
 
-MAINTAINER "Tidemark Cloud Devops Team"
+MAINTAINER "Adrian Romero"
 
 ENV DD_HOME=/opt/datadog-agent \
     # prevent the agent from being started after install
